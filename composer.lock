@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "52b015a4696778a768656b06facdbea2",
+    "content-hash": "eca5d9276559731d64689e7c27cde49d",
     "packages": [
         {
             "name": "composer/semver",
@@ -3915,27 +3915,27 @@
         },
         {
             "name": "mediawiki/vector-skin",
-            "version": "dev-wmf/1.36.0-wmf.38",
+            "version": "dev-wmf/1.37.0-wmf.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/Vector.git",
-                "reference": "1b42cd8dd401563a52913f1a2791fae8f0d5dee5"
+                "reference": "dbfcfdfac0f6b2f753cca50faebdc806ae55650b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/Vector/zipball/1b42cd8dd401563a52913f1a2791fae8f0d5dee5",
-                "reference": "1b42cd8dd401563a52913f1a2791fae8f0d5dee5",
+                "url": "https://api.github.com/repos/wikimedia/Vector/zipball/dbfcfdfac0f6b2f753cca50faebdc806ae55650b",
+                "reference": "dbfcfdfac0f6b2f753cca50faebdc806ae55650b",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": ">1.0.12"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "35.0.0",
+                "mediawiki/mediawiki-codesniffer": "36.0.0",
                 "mediawiki/mediawiki-phan-config": "0.10.6",
                 "mediawiki/minus-x": "1.1.1",
                 "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.2.0"
+                "php-parallel-lint/php-parallel-lint": "1.3.0"
             },
             "type": "mediawiki-skin",
             "extra": {
@@ -3963,7 +3963,7 @@
                 "skin",
                 "wiki"
             ],
-            "time": "2021-03-30T23:10:51+00:00"
+            "time": "2021-06-07T06:45:28+00:00"
         },
         {
             "name": "microsoft/tolerant-php-parser",
