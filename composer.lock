@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e9a2a8788b43d6268c0508a6d058c83",
+    "content-hash": "52b015a4696778a768656b06facdbea2",
     "packages": [
         {
             "name": "composer/semver",
@@ -2819,6 +2819,138 @@
     ],
     "packages-dev": [
         {
+            "name": "composer/installers",
+            "version": "v1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "ae03311f45dfe194412081526be2e003960df74b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/ae03311f45dfe194412081526be2e003960df74b",
+                "reference": "ae03311f45dfe194412081526be2e003960df74b",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "symfony/process": "^2.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "symfony",
+                "tastyigniter",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "time": "2021-04-28T06:42:17+00:00"
+        },
+        {
             "name": "composer/package-versions-deprecated",
             "version": "1.11.99.2",
             "source": {
@@ -3780,6 +3912,58 @@
                 "taint"
             ],
             "time": "2020-12-14T11:11:43+00:00"
+        },
+        {
+            "name": "mediawiki/vector-skin",
+            "version": "dev-wmf/1.36.0-wmf.38",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/Vector.git",
+                "reference": "1b42cd8dd401563a52913f1a2791fae8f0d5dee5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/Vector/zipball/1b42cd8dd401563a52913f1a2791fae8f0d5dee5",
+                "reference": "1b42cd8dd401563a52913f1a2791fae8f0d5dee5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">1.0.12"
+            },
+            "require-dev": {
+                "mediawiki/mediawiki-codesniffer": "35.0.0",
+                "mediawiki/mediawiki-phan-config": "0.10.6",
+                "mediawiki/minus-x": "1.1.1",
+                "php-parallel-lint/php-console-highlighter": "0.5.0",
+                "php-parallel-lint/php-parallel-lint": "1.2.0"
+            },
+            "type": "mediawiki-skin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "installer-name": "Vector"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Trevor Parscal"
+                },
+                {
+                    "name": "Roan Kattouw"
+                }
+            ],
+            "description": "Modern version of the MonoBook skin",
+            "homepage": "https://www.mediawiki.org/wiki/Skin:Vector",
+            "keywords": [
+                "mediawiki",
+                "skin",
+                "wiki"
+            ],
+            "time": "2021-03-30T23:10:51+00:00"
         },
         {
             "name": "microsoft/tolerant-php-parser",
@@ -6623,7 +6807,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wikimedia/parsoid": 15
+        "wikimedia/parsoid": 15,
+        "mediawiki/vector-skin": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

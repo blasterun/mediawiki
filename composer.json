@@ -74,6 +74,7 @@
 		"zordius/lightncandy": "1.2.5"
 	},
 	"require-dev": {
+    "mediawiki/vector-skin": "dev-wmf/1.36.0-wmf.38",
 		"composer/spdx-licenses": "1.5.4",
 		"doctrine/dbal": "2.10.4||3.0.0",
 		"doctrine/sql-formatter": "1.1.1",
