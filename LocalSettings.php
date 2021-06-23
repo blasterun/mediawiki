@@ -130,7 +130,7 @@ $wgDefaultSkin = "vector";
 
 $wgVectorResponsive = true;
 $wgVectorDefaultSkinVersion = '2';
-wfLoadSkin( 'Vector' );
+// wfLoadSkin( 'Vector' );
 // $wgVectorDefaultSkinVersion = '1';
 # End of automatically generated settings.
 # Add more configuration options below.
