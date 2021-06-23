@@ -128,9 +128,9 @@ $wgDiff3 = "/usr/bin/diff3";
 ## names, e.g. 'vector' or 'monobook':
 $wgDefaultSkin = "vector";
 
-$wgVectorResponsive = true;
-$wgVectorDefaultSkinVersion = '2';
-// wfLoadSkin( 'Vector' );
+## $wgVectorResponsive = true;
+## $wgVectorDefaultSkinVersion = '2';
+wfLoadSkin( 'Vector' );
 // $wgVectorDefaultSkinVersion = '1';
 # End of automatically generated settings.
 # Add more configuration options below.
