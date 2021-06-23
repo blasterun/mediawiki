@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "eca5d9276559731d64689e7c27cde49d",
+    "content-hash": "c0363e31e2699723935649244c4560e3",
     "packages": [
         {
             "name": "composer/semver",
@@ -3915,34 +3915,36 @@
         },
         {
             "name": "mediawiki/vector-skin",
-            "version": "dev-wmf/1.37.0-wmf.9",
+            "version": "1.32.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wikimedia/Vector.git",
-                "reference": "dbfcfdfac0f6b2f753cca50faebdc806ae55650b"
+                "url": "https://github.com/wikimedia/mediawiki-skins-Vector.git",
+                "reference": "d3ed21abc9ccf1bf3d2c194bbab7f7c0260f7bd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/Vector/zipball/dbfcfdfac0f6b2f753cca50faebdc806ae55650b",
-                "reference": "dbfcfdfac0f6b2f753cca50faebdc806ae55650b",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-skins-Vector/zipball/d3ed21abc9ccf1bf3d2c194bbab7f7c0260f7bd6",
+                "reference": "d3ed21abc9ccf1bf3d2c194bbab7f7c0260f7bd6",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": ">1.0.12"
+                "composer/installers": ">1.0.12",
+                "php": ">=5.5.9"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "36.0.0",
-                "mediawiki/mediawiki-phan-config": "0.10.6",
-                "mediawiki/minus-x": "1.1.1",
-                "php-parallel-lint/php-console-highlighter": "0.5.0",
-                "php-parallel-lint/php-parallel-lint": "1.3.0"
+                "jakub-onderka/php-console-highlighter": "0.3.2",
+                "jakub-onderka/php-parallel-lint": "1.0.0",
+                "mediawiki/mediawiki-codesniffer": "22.0.0",
+                "mediawiki/mediawiki-phan-config": "0.3.0",
+                "mediawiki/minus-x": "0.3.1"
             },
             "type": "mediawiki-skin",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.x-dev"
                 },
-                "installer-name": "Vector"
+                "installer-name": "Vector",
+                "phan-taint-check-plugin": "1.5.0"
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3963,7 +3965,7 @@
                 "skin",
                 "wiki"
             ],
-            "time": "2021-06-07T06:45:28+00:00"
+            "time": "2018-10-14T20:07:01+00:00"
         },
         {
             "name": "microsoft/tolerant-php-parser",
@@ -6807,8 +6809,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wikimedia/parsoid": 15,
-        "mediawiki/vector-skin": 20
+        "wikimedia/parsoid": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
