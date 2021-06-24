@@ -99,7 +99,7 @@
 		"skins.vector.styles.legacy": {
 			"class": "ResourceLoaderSkinModule",
 			"features": {
-				"content-parser-output": false,
+				"content-parser-output": true,
 				"normalize": true,
 				"elements": true,
 				"content": true,
@@ -133,7 +133,7 @@
 			"selectorWithVariant": ".mw-ui-icon-wikimedia-{name}-{variant}:before",
 			"selectorWithoutVariant": ".mw-ui-icon-wikimedia-{name}:before",
 			"useDataURI": false,
-			"defaultColor": "#54595d",
+			"defaultColor": "#000",
 			"class": "ResourceLoaderOOUIIconPackModule",
 			"variants": [],
 			"icons": [

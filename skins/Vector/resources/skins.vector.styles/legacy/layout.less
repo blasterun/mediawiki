@@ -52,7 +52,6 @@ body {
 }
 
 .mw-indicators {
-	float: right;
 	z-index: @z-index-indicators;
 }
 
@@ -65,6 +64,12 @@ body {
 // is enabled. The definition in core still needs work (see T279008).
 #bodyContent {
 	.mixin-clearfix();
+}
+
+// FIXME: Temporarily disable the core rule which applies to the wrong element.
+// The definition in core still needs work (see T279008).
+.mw-parser-output:after {
+	content: none;
 }
 
 /* Head */
